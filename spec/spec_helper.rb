@@ -1,3 +1,5 @@
+ENV['RACK_ENV'] = 'test'
+require 'server'
 require 'coveralls'
 require 'simplecov'
 
